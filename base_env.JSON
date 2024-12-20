@@ -1,0 +1,179 @@
+{
+	"id": "ad5bca7f-abee-4244-bcd0-d2d084296f5f",
+	"name": "MAC 2 BEDROOM",
+	"values": [
+		{
+			"var": "SSID",
+			"value": "Digitels",
+			"is_lock": "false"
+		},
+		{
+			"var": "SSID 2",
+			"value": "Digitels Device",
+			"is_lock": "false"
+		},
+		{
+			"var": "PASSWORD",
+			"value": "Digitels123@!",
+			"is_lock": "false"
+		},
+		{
+			"var": "PASSWORD 2",
+			"value": "Digitels123@!",
+			"is_lock": "false"
+		},
+		{
+			"var": "Gateway_NOW",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Gateway_WiFi",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Slave_Living",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "LVGL_Living",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Voice_Zigbee",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Living_Dimmer_1",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Living_Dimmer_2",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Living_Kinetic",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "L_SW_G1",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "L_SW_G2",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "L_SW_G3",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "L_SW_Balcony",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Slave_Master",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "LVGL_Master",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Master_Dimmer",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Master_Kinetic",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "M_SW_G1",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "M_SW_G2",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "M_SW_G3",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "M_SW_ToiletG1",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "M_SW_ToiletG2",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Slave_Guest",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "LVGL_Guest",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Guest_Dimmer",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "Guest_Kinetic",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "G_SW_G1",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "G_SW_G2",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "G_SW_G3",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "G_SW_ToiletG1",
+			"value": "",
+			"is_lock": "false"
+		},
+		{
+			"var": "G_SW_ToiletG2",
+			"value": "",
+			"is_lock": "false"
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-12-20T08:01:06.901Z",
+	"_postman_exported_using": "Postman/11.23.2"
+}

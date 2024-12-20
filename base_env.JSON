@@ -5,22 +5,22 @@
 		{
 			"var": "SSID",
 			"value": "Digitels",
-			"is_lock": "false"
+			"is_lock": "true"
 		},
 		{
 			"var": "SSID 2",
 			"value": "Digitels Device",
-			"is_lock": "false"
+			"is_lock": "true"
 		},
 		{
 			"var": "PASSWORD",
 			"value": "Digitels123@!",
-			"is_lock": "false"
+			"is_lock": "true"
 		},
 		{
 			"var": "PASSWORD 2",
 			"value": "Digitels123@!",
-			"is_lock": "false"
+			"is_lock": "true"
 		},
 		{
 			"var": "Gateway_NOW",

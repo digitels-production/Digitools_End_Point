@@ -1,0 +1,19 @@
+{
+	"id": "c35eaa1c-c382-4f4e-80f4-566b120be36f",
+	"name": "New Environment",
+	"values": [
+		{
+			"var": "Pair Super Gateway to Dimmer 1",
+			"value": "{\n\"data\": \"pairDevice\",\n\"CMD\": 4001,\n\"Time\": 1001,\n\"address\": 1,\n\"slave\": 0,\n\"device\": 0,\n\"index\": 0,\n\"MAC\": [{{Living_Dimmer_1}}],\n\"OK\": 0}",
+			"is_lock": "true"
+		},
+		{
+			"var": "Pair Super Gateway to Dimmer 2",
+			"value": "{\n\"data\": \"pairDevice\",\n\"CMD\": 4001,\n\"Time\": 1001,\n\"address\": 1,\n\"slave\": 0,\n\"device\": 0,\n\"index\": 1,\n\"MAC\": [{{Living_Dimmer_2}}],\n\"OK\": 0}",
+			"is_lock": "true"
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-12-20T08:29:04.891Z",
+	"_postman_exported_using": "Postman/11.23.2"
+}

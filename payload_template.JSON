@@ -38,6 +38,16 @@
 		        "is_lock": "true"
 		    },
 		    {
+		        "var": "EMS SEQ AC SL 1 (INDEX 0-2)",
+		        "value": "{\"data\":\"SequenceAC\",\"CMD\":1034,\"Time\":1001,\"address\":1,\"AC\":2,\"bit\":12,\"index\":1,\n\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "EMS SEQ AC SL 1 (INDEX 0-2)",
+		        "value": "{\"data\":\"SequenceAC\",\"CMD\":1034,\"Time\":1001,\"address\":1,\"AC\":2,\"bit\":12,\"index\":2,\n\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
 		        "var": "LVGL 1 (L) 1BR",
 		        "value": "{\"data\":\"typePanel\",\"CMD\":1062,\"Time\":1001,\"address\":1,\"slave\":0,\"LCD\":1,\"panel\":1,\"mask_AC\":[0,0,0,0,0,0,0,12],\"OK\":0}",
 		        "is_lock": "true"

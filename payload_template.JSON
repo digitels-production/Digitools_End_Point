@@ -2,6 +2,11 @@
 	"id": "c35eaa1c-c382-4f4e-80f4-566b120be36f",
 	"name": "New Environment",
 	"values": [
+		{
+		    "var": "Flush Command",
+		    "value": "{\"data\":\"flush\",\"CMD\":1222,\"Time\":1001,\"address\":1,\"slave\":0,\"flush\":0,\"OK\":0}",
+		    "is_lock": "true"
+		},
 		    {
 		        "var": "OTA SGW-WIFI",
 		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":1,\"action\":1,\"OK\":0}",

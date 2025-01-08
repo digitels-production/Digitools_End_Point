@@ -68,8 +68,48 @@
 		        "is_lock": "true"
 		    },
 		    {
+		        "var": "BIT 1,2,3,5,10 25% 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":2,\n\"status\":20,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 1,2,3,5,10 25% 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":3,\n\"status\":20,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 1,2,3,5,10 25% 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":5,\n\"status\":20,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 1,2,3,5,10 25% 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":10,\n\"status\":20,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
 		        "var": "BIT 4,6,7,11,12 25% 1BR",
 		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":4,\n\"status\":64,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 4,6,7,11,12 25% 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":6,\n\"status\":64,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 4,6,7,11,12 25% 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":7,\n\"status\":64,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 4,6,7,11,12 25% 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":11,\n\"status\":64,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 4,6,7,11,12 25% 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":12,\n\"status\":64,\"OK\":0}",
 		        "is_lock": "true"
 		    },
 		    {
@@ -83,13 +123,38 @@
 		        "is_lock": "true"
 		    },
 		    {
+		        "var": "SYM 0-1 BRIGHT 25%",
+  			"value": "{\"data\":\"sympScenario\",\"CMD\":1078,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"symphony\":1,\n\"R\":255,\"G\":89,\"B\":11,\"speed\":35,\"bright\":64,\"mode\":1,\"LedPoint\":40,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
 		        "var": "BIT 8 - Scenario 2,3,4",
 		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":2,\n\"type\":1,\"bit\":8,\"status\":0,\"OK\":0}",
 		        "is_lock": "true"
 		    },
 		    {
+		        "var": "BIT 8 - Scenario 2,3,4",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":3,\n\"type\":1,\"bit\":8,\"status\":0,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 8 - Scenario 2,3,4",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\n\"type\":1,\"bit\":8,\"status\":0,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
 		        "var": "BIT 9 - Scenario 2,3,4",
 		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":2,\n\"type\":1,\"bit\":9,\"status\":0,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 9 - Scenario 2,3,4",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":3,\n\"type\":1,\"bit\":9,\"status\":0,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 9 - Scenario 2,3,4",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\n\"type\":1,\"bit\":9,\"status\":0,\"OK\":0}",
 		        "is_lock": "true"
 		    },
 		    {

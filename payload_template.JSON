@@ -2,17 +2,97 @@
 	"id": "c35eaa1c-c382-4f4e-80f4-566b120be36f",
 	"name": "New Environment",
 	"values": [
-		{
-			"var": "Pair Super Gateway to Dimmer 1",
-			"value": "{\n\"data\": \"pairDevice\",\n\"CMD\": 4001,\n\"Time\": 1001,\n\"address\": 1,\n\"slave\": 0,\n\"device\": 0,\n\"index\": 0,\n\"MAC\": [{{Living_Dimmer_1}}],\n\"OK\": 0}",
-			"is_lock": "true"
-		},
-		{
-			"var": "Pair Super Gateway to Dimmer 2",
-			"value": "{\n\"data\": \"pairDevice\",\n\"CMD\": 4001,\n\"Time\": 1001,\n\"address\": 1,\n\"slave\": 0,\n\"device\": 0,\n\"index\": 1,\n\"MAC\": [{{Living_Dimmer_2}}],\n\"OK\": 0}",
-			"is_lock": "true"
-		}
-	],
+		    {
+		        "var": "OTA SGW-WIFI",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":1,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "OTA SGW-NOW",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":2,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "OTA SLAVE 1 (L)",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":9,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "OTA LVGL 1 (L)",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":14,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "OTA KIN (L)",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":5,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "IR COPY SL 1",
+		        "value": "{\"data\":\"IRACdata\",\"CMD\":1010,\"Time\":1001,\"address\":1,\"AC\":2,\"brand\":\"Hisense\",\"slot\":\"Copy4\",\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "EMS SEQ AC SL 1 (INDEX 0-2)",
+		        "value": "{\"data\":\"SequenceAC\",\"CMD\":1034,\"Time\":1001,\"address\":1,\"AC\":2,\"bit\":12,\"index\":0,\n\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "LVGL 1 (L) 1BR",
+		        "value": "{\"data\":\"typePanel\",\"CMD\":1062,\"Time\":1001,\"address\":1,\"slave\":0,\"LCD\":1,\"panel\":1,\"mask_AC\":[0,0,0,0,0,0,0,12],\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "ex BALCONY 1BR",
+		        "value": "{\"data\":\"masterLight\",\"CMD\":1067,\"Time\":1001,\"address\":1,\"slave\":0,\"bit\":8,\"status\":0,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "ex STORAGE 1BR",
+		        "value": "{\"data\":\"masterLight\",\"CMD\":1067,\"Time\":1001,\"address\":1,\"slave\":0,\"bit\":9,\"status\":0,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 1,2,3,5,10 25% 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":1,\n\"status\":20,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 4,6,7,11,12 25% 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":4,\n\"status\":64,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 13 OFF 1BR",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":2,\"bit\":13,\"status\":0,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "SYM 0-1 BRIGHT 25%",
+  			"value": "{\"data\":\"sympScenario\",\"CMD\":1078,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"symphony\":0,\n\"R\":255,\"G\":89,\"B\":11,\"speed\":35,\"bright\":64,\"mode\":1,\"LedPoint\":40,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 8 - Scenario 2,3,4",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":2,\n\"type\":1,\"bit\":8,\"status\":0,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "BIT 9 - Scenario 2,3,4",
+		        "value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":2,\n\"type\":1,\"bit\":9,\"status\":0,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "LEFT & MIDDLE - DOWNLIGHT 2",
+		        "value": "{\"data\":\"pairSwitch\",\"CMD\":4000,\"Time\":1001,\"address\":1,\"slave\":0,\"gang\":2,\"bit\":7,\"rfcode\":[255,255,255,0],\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "RIGHT & MIDDLE - SMART GLASS 2",
+		        "value": "{\"data\":\"pairSwitch\",\"CMD\":4000,\"Time\":1001,\"address\":1,\"slave\":0,\"gang\":2,\"bit\":8,\"rfcode\":[255,255,255,0],\"OK\":0}",
+		        "is_lock": "true"
+		    }
+			],
 	"_postman_variable_scope": "environment",
 	"_postman_exported_at": "2024-12-20T08:29:04.891Z",
 	"_postman_exported_using": "Postman/11.23.2"

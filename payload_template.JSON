@@ -32,9 +32,48 @@
 		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":5,\"action\":1,\"OK\":0}",
 		        "is_lock": "true"
 		    },
+			{
+		        "var": "OTA SLAVE 2 (MASTER)",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":10,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },
 		    {
-		        "var": "IR COPY SL 1",
+		        "var": "OTA LVGL 2 (MASTER)",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":15,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "OTA KIN (MASTER)",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":2,\"OTA\":4,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },			{
+		        "var": "OTA SLAVE 3 (GUEST)",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":11,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "OTA LVGL 3 (GUEST)",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":16,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "OTA KIN (MASTER)",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":3,\"OTA\":4,\"action\":1,\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "IRAC COPY SL 1",
 		        "value": "{\"data\":\"IRACdata\",\"CMD\":1010,\"Time\":1001,\"address\":1,\"AC\":2,\"brand\":\"Hisense\",\"slot\":\"Copy4\",\"OK\":0}",
+		        "is_lock": "true"
+		    },
+			{
+		        "var": "IRAC COPY SL 2 MASTER",
+		        "value": "{\"data\":\"IRACdata\",\"CMD\":1010,\"Time\":1001,\"address\":1,\"AC\":3,\"brand\":\"Hisense\",\"slot\":\"Copy4\",\"OK\":0}",
+		        "is_lock": "true"
+		    },
+			{
+		        "var": "IRAC COPY SL 3 GUEST",
+		        "value": "{\"data\":\"IRACdata\",\"CMD\":1010,\"Time\":1001,\"address\":1,\"AC\":4,\"brand\":\"Hisense\",\"slot\":\"Copy4\",\"OK\":0}",
 		        "is_lock": "true"
 		    },
 		    {
@@ -52,9 +91,54 @@
 		        "value": "{\"data\":\"SequenceAC\",\"CMD\":1034,\"Time\":1001,\"address\":1,\"AC\":2,\"bit\":12,\"index\":2,\n\"OK\":0}",
 		        "is_lock": "true"
 		    },
+			{
+		        "var": "EMS SEQ AC SL 2 MASTER (INDEX 0-2)",
+		        "value": "{\"data\":\"SequenceAC\",\"CMD\":1034,\"Time\":1001,\"address\":1,\"AC\":3,\"bit\":12,\"index\":0,\n\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "EMS SEQ AC SL 2 MASTER (INDEX 0-2)",
+		        "value": "{\"data\":\"SequenceAC\",\"CMD\":1034,\"Time\":1001,\"address\":1,\"AC\":3,\"bit\":12,\"index\":1,\n\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "EMS SEQ AC SL 2 MASTER (INDEX 0-2)",
+		        "value": "{\"data\":\"SequenceAC\",\"CMD\":1034,\"Time\":1001,\"address\":1,\"AC\":3,\"bit\":12,\"index\":2,\n\"OK\":0}",
+		        "is_lock": "true"
+		    },
+			{
+		        "var": "EMS SEQ AC SL 3 GUEST (INDEX 0-2)",
+		        "value": "{\"data\":\"SequenceAC\",\"CMD\":1034,\"Time\":1001,\"address\":1,\"AC\":4,\"bit\":12,\"index\":0,\n\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "EMS SEQ AC SL 3 GUEST (INDEX 0-2)",
+		        "value": "{\"data\":\"SequenceAC\",\"CMD\":1034,\"Time\":1001,\"address\":1,\"AC\":4,\"bit\":12,\"index\":1,\n\"OK\":0}",
+		        "is_lock": "true"
+		    },
+		    {
+		        "var": "EMS SEQ AC SL 3 GUEST (INDEX 0-2)",
+		        "value": "{\"data\":\"SequenceAC\",\"CMD\":1034,\"Time\":1001,\"address\":1,\"AC\":4,\"bit\":12,\"index\":2,\n\"OK\":0}",
+		        "is_lock": "true"
+		    },
 		    {
 		        "var": "LVGL 1 (L) 1BR",
 		        "value": "{\"data\":\"typePanel\",\"CMD\":1062,\"Time\":1001,\"address\":1,\"slave\":0,\"LCD\":1,\"panel\":1,\"mask_AC\":[0,0,0,0,0,0,0,12],\"OK\":0}",
+		        "is_lock": "true"
+		    },
+			{
+		        "var": "LVGL 1 (L) 2BR",
+		        "value": "{\"data\":\"typePanel\",\"CMD\":1062,\"Time\":1001,\"address\":1,\"slave\":0,\"LCD\":1,\"panel\":2,\"mask_AC\":[0,0,0,0,0,0,0,12],\"OK\":0}",
+		        "is_lock": "true"
+		    },
+			{
+		        "var": "LVGL 2 (MASTER) 2BR",
+		        "value": "{\"data\":\"typePanel\",\"CMD\":1062,\"Time\":1001,\"address\":1,\"slave\":0,\"LCD\":2,\"panel\":3,\"mask_AC\":[0,0,0,0,0,0,0,12],\"OK\":0}",
+		        "is_lock": "true"
+		    },
+			{
+		        "var": "LVGL 3 (GUEST) 2BR",
+		        "value": "{\"data\":\"typePanel\",\"CMD\":1062,\"Time\":1001,\"address\":1,\"slave\":0,\"LCD\":3,\"panel\":3,\"mask_AC\":[0,0,0,0,0,0,0,12],\"OK\":0}",
 		        "is_lock": "true"
 		    },
 		    {
@@ -172,6 +256,182 @@
 		        "value": "{\"data\":\"pairSwitch\",\"CMD\":4000,\"Time\":1001,\"address\":1,\"slave\":0,\"gang\":2,\"bit\":8,\"rfcode\":[255,255,255,0],\"OK\":0}",
 		        "is_lock": "true"
 		    }
+			{
+				"var": "BALCONY 2BR",
+				"value": "{\"data\":\"masterLight\",\"CMD\":1067,\"Time\":1001,\"address\":1,\"slave\":0,\"bit\":7,\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "STORAGE 2BR",
+				"value": "{\"data\":\"masterLight\",\"CMD\":1067,\"Time\":1001,\"address\":1,\"slave\":0,\"bit\":8,\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 1,3,4, 25% 2BR LIVING",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":1,\n\"status\":20,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 1,3,4, 25% 2BR LIVING",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":3,\n\"status\":20,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 1,3,4, 25% 2BR LIVING",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":4,\n\"status\":20,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 2,5,6 25% 2BR LIVING",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":2,\n\"status\":64,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 2,5,6 25% 2BR LIVING",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":5,\n\"status\":64,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 2,5,6 25% 2BR LIVING",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":1,\"bit\":6,\n\"status\":64,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 13,14,15 OFF 2BR LIVING",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":2,\"bit\":13,\n\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 13,14,15 OFF 2BR LIVING",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":2,\"bit\":14,\n\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 13,14,15 OFF 2BR LIVING",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"type\":2,\"bit\":15,\n\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "SYM 0-1 BRIGHT 25% 2BR LIVING",
+				"value": "{\"data\":\"sympScenario\",\"CMD\":1078,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"symphony\":0,\n\"R\":255,\"G\":89,\"B\":11,\"speed\":35,\"bright\":64,\"mode\":1,\"LedPoint\":85,\"OK\":0}",
+				"is_lock": "true"
+			}
+			{
+				"var": "SYM 0-1 BRIGHT 25% 2BR LIVING",
+				"value": "{\"data\":\"sympScenario\",\"CMD\":1078,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"symphony\":0,\n\"R\":255,\"G\":89,\"B\":11,\"speed\":35,\"bright\":64,\"mode\":1,\"LedPoint\":85,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 1, 25% 2BR MASTER",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":2,\"scenario\":4,\"type\":1,\"bit\":1,\"status\":20,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 2,3 25% 2BR MASTER",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":2,\"scenario\":4,\"type\":1,\"bit\":2,\n\"status\":64,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 2,3 25% 2BR MASTER",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":2,\"scenario\":4,\"type\":1,\"bit\":3,\n\"status\":64,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 7,9 OFF 2BR MASTER",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":2,\"scenario\":4,\"type\":2,\"bit\":7,\n\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 7,9 OFF 2BR MASTER",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":2,\"scenario\":4,\"type\":2,\"bit\":9,\n\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "SYM 2 (MASTER) BRIGHT 25% MASTER",
+				"value": "{\"data\":\"sympScenario\",\"CMD\":1078,\"Time\":1001,\"address\":1,\"slave\":2,\"scenario\":4,\"symphony\":2,\"R\":255,\"G\":89,\"B\":11,\"speed\":35,\"bright\":64,\"mode\":1,\"LedPoint\":50,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 1, 25% 2BR GUEST",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":3,\"scenario\":4,\"type\":1,\"bit\":1,\"status\":20,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 2,3 25% 2BR GUEST",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":3,\"scenario\":4,\"type\":1,\"bit\":2,\n\"status\":64,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 2,3 25% 2BR GUEST",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":3,\"scenario\":4,\"type\":1,\"bit\":3,\n\"status\":64,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 7,9 OFF 2BR GUEST",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":3,\"scenario\":4,\"type\":2,\"bit\":7,\n\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 7,9 OFF 2BR GUEST",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":3,\"scenario\":4,\"type\":2,\"bit\":9,\n\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "SYM 3 (GUEST) BRIGHT 25%",
+				"value": "{\"data\":\"sympScenario\",\"CMD\":1078,\"Time\":1001,\"address\":1,\"slave\":3,\"scenario\":4,\"symphony\":3,\"R\":255,\"G\":89,\"B\":11,\"speed\":35,\"bright\":64,\"mode\":1,\"LedPoint\":50,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 7 - Scenario 2,3,4 2BR",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":2,\n\"type\":1,\"bit\":7,\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 7 - Scenario 2,3,4 2BR",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":3,\n\"type\":1,\"bit\":7,\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 7 - Scenario 2,3,4 2BR",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\n\"type\":1,\"bit\":7,\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 8 - Scenario 2,3,4 2BR",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":2,\n\"type\":1,\"bit\":8,\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 8 - Scenario 2,3,4 2BR",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":3,\n\"type\":1,\"bit\":8,\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "BIT 8 - Scenario 2,3,4 2BR",
+				"value": "{\"data\":\"seqScenario\",\"CMD\":1077,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\n\"type\":1,\"bit\":8,\"status\":0,\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "LEFT & MIDDLE - DOWNLIGHT 2 MASTER",
+				"value": "{\"data\":\"pairSwitch\",\"CMD\":4000,\"Time\":1001,\"address\":1,\"slave\":2,\"gang\":1,\"bit\":7,\"rfcode\":[255,255,255,0],\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "RIGHT & MIDDLE - SMART GLASS 2 MASTER",
+				"value": "{\"data\":\"pairSwitch\",\"CMD\":4000,\"Time\":1001,\"address\":1,\"slave\":2,\"gang\":1,\"bit\":9,\"rfcode\":[255,255,255,0],\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "LEFT & MIDDLE - DOWNLIGHT 2 GUEST",
+				"value": "{\"data\":\"pairSwitch\",\"CMD\":4000,\"Time\":1001,\"address\":1,\"slave\":3,\"gang\":1,\"bit\":7,\"rfcode\":[255,255,255,0],\"OK\":0}",
+				"is_lock": "true"
+			},
+			{
+				"var": "RIGHT & MIDDLE - SMART GLASS 2 GUEST",
+				"value": "{\"data\":\"pairSwitch\",\"CMD\":4000,\"Time\":1001,\"address\":1,\"slave\":3,\"gang\":1,\"bit\":9,\"rfcode\":[255,255,255,0],\"OK\":0}",
+				"is_lock": "true"
+			}
+			
 			],
 	"_postman_variable_scope": "environment",
 	"_postman_exported_at": "2024-12-20T08:29:04.891Z",

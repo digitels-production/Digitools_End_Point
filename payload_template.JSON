@@ -255,7 +255,7 @@
 		        "var": "RIGHT & MIDDLE - SMART GLASS 2",
 		        "value": "{\"data\":\"pairSwitch\",\"CMD\":4000,\"Time\":1001,\"address\":1,\"slave\":0,\"gang\":2,\"bit\":8,\"rfcode\":[255,255,255,0],\"OK\":0}",
 		        "is_lock": "true"
-		    }
+		    },
 			{
 				"var": "BALCONY 2BR",
 				"value": "{\"data\":\"masterLight\",\"CMD\":1067,\"Time\":1001,\"address\":1,\"slave\":0,\"bit\":7,\"status\":0,\"OK\":0}",
@@ -315,7 +315,7 @@
 				"var": "SYM 0-1 BRIGHT 25% 2BR LIVING",
 				"value": "{\"data\":\"sympScenario\",\"CMD\":1078,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"symphony\":0,\n\"R\":255,\"G\":89,\"B\":11,\"speed\":35,\"bright\":64,\"mode\":1,\"LedPoint\":85,\"OK\":0}",
 				"is_lock": "true"
-			}
+			},
 			{
 				"var": "SYM 0-1 BRIGHT 25% 2BR LIVING",
 				"value": "{\"data\":\"sympScenario\",\"CMD\":1078,\"Time\":1001,\"address\":1,\"slave\":0,\"scenario\":4,\"symphony\":0,\n\"R\":255,\"G\":89,\"B\":11,\"speed\":35,\"bright\":64,\"mode\":1,\"LedPoint\":85,\"OK\":0}",

@@ -8,13 +8,13 @@
 			"is_lock": "true"
 		    },
 		    {
-		        "var": "OTA SGW-WIFI",
-		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":1,\"action\":1,\"OK\":0}",
+		        "var": "ROLLBACK OTA SGW-WIFI",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":1,\"action\":3,\"OK\":0}",
 		        "is_lock": "true"
 		    },
 		    {
-		        "var": "OTA SGW-NOW",
-		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":2,\"action\":1,\"OK\":0}",
+		        "var": "ROLLBACK OTA SGW-NOW",
+		        "value": "{\"data\":\"updateOTA\",\"CMD\":1111,\"Time\":1001,\"address\":1,\"slave\":0,\"OTA\":2,\"action\":3,\"OK\":0}",
 		        "is_lock": "true"
 		    },
 		    {
